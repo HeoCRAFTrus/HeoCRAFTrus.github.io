@@ -31,15 +31,10 @@
 
 <body>
 	<p>Hello World!</p>
-	<nav>
- 	 <a class="active" href="#">Главная</a>
- 	 <a href="#">Услуги</a>
-  	<a href="#">Контакты</a>
-  	<div class="search-box">
-  	<form action="#">
-    	<input type="text" placeholder="Поиск.." name="search">
-   	 <button type="submit">Отправить</button>
-  	</form>
- 	 </div>
-	</nav>
+	<form action="/search/" target="_blank">
+  <input type="hidden" name="searchid" value="808327">
+  <input type="search" name="text" required placeholder="Поиск по сайту" style="
+padding: 5px 2px 5px 25px;
+background: url('http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s25/search.png') no-repeat scroll 0 50%;">
+</form>
 </body>

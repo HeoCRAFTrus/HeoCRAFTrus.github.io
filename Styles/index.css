@@ -24,6 +24,9 @@ ul {
 }
 
 /* конец кода сброса стилей браузера */
+body{
+	background: orange;
+}
 #body{
 	display: flex; 
 	justify-content: space-between;
@@ -35,6 +38,9 @@ ul {
 
 #container{
 	background: yellow;
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
 }
 #left{
 	background: red;

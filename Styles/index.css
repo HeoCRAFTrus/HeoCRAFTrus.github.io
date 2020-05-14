@@ -29,11 +29,17 @@ body{
 }
 #body{
 	display: flex; 
-	justify-content: space-between;
-	align-items: center;
+	flex-direction: column;
+	align-items: flex-start;
 }
 #header{
 	background: blue;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 90%;
+	height: auto;
 }
 
 #container{
@@ -41,16 +47,37 @@ body{
 	display: flex; 
 	justify-content: space-between;
 	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 90%;
+	height: auto;
+
 }
 #left{
 	background: red;
-}
-#right{
-	background: green;
+	width: 25%;
+	height: 100%;
 }
 #center{
 	background: pink;
+	width: 50%;
+	height: 100%;
 }
+#right{
+	background: green;
+	width: 25%;
+	height: 100%;
+}
+
 #spacer{
 	background: violet;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width: 90%;
+	height: auto;
 }

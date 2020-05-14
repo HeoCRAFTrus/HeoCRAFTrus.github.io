@@ -27,6 +27,9 @@ ul {
 body{
 	background: orange;
 }
+ li {
+    list-style-type: none; /* Убираем маркеры */
+   }
 #body{
 	display: flex; 
 	flex-direction: column;

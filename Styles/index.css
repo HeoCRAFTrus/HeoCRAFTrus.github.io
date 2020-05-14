@@ -24,7 +24,11 @@ ul {
 }
 
 /* конец кода сброса стилей браузера */
-
+#body{
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+}
 #header{
 	background: blue;
 }

@@ -24,3 +24,23 @@ ul {
 }
 
 /* конец кода сброса стилей браузера */
+
+#header{
+	background: blue;
+}
+
+#container{
+	background: yellow;
+}
+#left{
+	background: black;
+}
+#right{
+	background: green;
+}
+#center{
+	background: pink;
+}
+#spacer{
+	background: violet;
+}

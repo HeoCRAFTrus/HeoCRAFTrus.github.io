@@ -24,11 +24,15 @@ ul {
 }
 
 /* конец кода сброса стилей браузера */
+a{ 
+    text-decoration: none;
+} 
 body{
-	background: orange;
+	background: url(../images/bg.jpg) repeat center 897px;
+	background-size: 100%;
 }
  li {
-    list-style-type: none; /* Убираем маркеры */
+    list-style-type: none;
    }
 #body{
 	display: flex; 
@@ -36,46 +40,154 @@ body{
 	align-items: flex-start;
 }
 #header{
-	background: blue;
+	background: linear-gradient(green, #4169E1);
+	border-radius: 0px 0px 10px 10px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
 	margin-bottom: 5px;
-	width: 90%;
+	width: 56.3%;
 	height: auto;
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+}
+#LogRegForm{
+	border-radius: 5px;
+	background: #4682B4;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 5%;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+
+}
+
+#logo{
+	width: 30%;
+	height: 30%;
+	margin: 5px;
 }
 
 #container{
-	background: yellow;
 	display: flex; 
-	justify-content: space-between;
-	align-items: center;
+	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	width: 90%;
+	width: 56.3%;
 	height: auto;
 
 }
 #left{
-	background: red;
-	width: 25%;
+	width: 24%;
 	height: 100%;
+	position: sticky;
+	top: 10%;
 }
-#center{
-	background: pink;
-	width: 75%;
-	height: 100%;
+#LeftMenu{
+	background: linear-gradient(green, #4169E1);
+	border-radius: 5px;
+	width: 90%;
+	margin: auto;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	text-align: center;
+	font-color: black;
 }
 
+
+#center{
+	width: 76%;
+	height: 100%;
+}
+#content{
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+}
+h1{
+	background: #54a4ad;
+	border-radius: 5px;
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	font-style: 
+}
+#cover{
+	width: 321px;
+	height: 450px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table{
+	width: 96%;
+	margin-bottom: 10px;
+}
+#descriptionBlock{
+	background: #a4bbbb;
+	border-radius: 5px;
+	margin: 5px;
+	width: 98%;
+	
+}
+#description{
+	margin: 10px;
+	white-space: wrap;
+}
+#pdescription{
+	border:1px solid black;
+	margin: 10px;
+}
+#download{
+	width: 1px;
+	height: 1px;
+    border: 1px solid black;
+}
+#DowImg{
+	width: 175px;
+	height: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#video{
+	margin: 10px;
+}
+
+
+
+
 #spacer{
-	background: violet;
+	background:linear-gradient(green, #4169E1);
+	border-radius: 10px 10px 0 0;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 5px;
-	margin-bottom: 10px;
-	width: 90%;
-	height: auto;
+	width: 56.3%;
+	height: 40px;
+
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+}
+#contacts{
+	border-radius: 5px;
+	height: 60%;
+	width: 20%;
+	background: #4682B4;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: black;
+	text-align: center;
 }

@@ -6,7 +6,10 @@
 	#header{
 		width: 100%;
 	}
-	#body{
+	#container{
+		width: 100%;
+	}
+	#spacer{
 		width: 100%;
 	}
 }

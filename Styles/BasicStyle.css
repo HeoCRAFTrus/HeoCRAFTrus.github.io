@@ -92,6 +92,7 @@ body{
 	background: linear-gradient(green, #4169E1);
 	border-radius: 5px;
 	width: 90%;
+	height: auto;
 	margin: auto;
 	margin-top: 4px;
 	margin-bottom: 4px;

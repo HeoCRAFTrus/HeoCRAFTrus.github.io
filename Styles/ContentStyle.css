@@ -16,11 +16,13 @@ h1{
 	font-style: 
 }
 #cover{
-	width: 321px;
-	height: 450px;
-	margin: 10px;
+	/*width: 321px;
+	height: 450px;*/
+	width: 45%;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 5px;
 }
 table{
 	width: 96%;

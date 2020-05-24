@@ -106,7 +106,7 @@ table{
 	transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
 }
 
-img {
+.slide img {
 	width:400px;
 	height:240px;
 }

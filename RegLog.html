@@ -19,6 +19,7 @@
 	<!-- Connect css file -->
 	<link rel="stylesheet" href="Styles/BasicStyle.css">
 	<link rel="stylesheet" href="Styles/MobileStyle.css">
+	<link rel="stylesheet" href="Styles/RegistrationStyle.css">
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript" >
 		(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -38,32 +39,62 @@
 	<div id="body">
 
 		<div id="header">
-			<p>header</p>
-			<div id = "LogRegForm">
-				<button>Registration</button>
-				<button>Login</button>
-			</div>
+			<img id="logo" src="images/logo.png">
 			
+			<a href="RegLog.html" id = "LogRegForm">
+				<div >
+					<p>Регистрация Вход</p>
+				</div>
+			</a>
 		</div>
 
 		<div id="container">
 			<div id="left">
-				<ul type="none">
-					<li><a href="index.html"><p id="LeftMenu">Главная</p></a></li>
-					<li><a href="DownloadPages/Snowrunner.html"><p id="LeftMenu">Snowrunner</p></a></li>
-					<li><p id="LeftMenu">Subnautica</p></li>
-					<li><p id="LeftMenu">Subnautica: Below Zero</p></li>
-					<li><p id="LeftMenu">Deliver us the moon</p></li>
-					<li><p id="LeftMenu">Satisfactory</p></li>
-					<li><p id="LeftMenu">Deus Ex: Mankind Divided</p></li>
-				</ul>
+				<a href="index.html"><p id="LeftMenu">Главная</p></a>
+				<a href="DownloadPages/Snowrunner.html"><p id="LeftMenu">Snowrunner</p></a>
+				<a href="DownloadPages/Subnautica.html"><p id="LeftMenu">Subnautica</p></a>
+				<a href="DownloadPages/SubnauticaBZ.html"><p id="LeftMenu">Subnautica: Below Zero</p></a>
+				<a href="DownloadPages/DeliverUsTheMoon.html"><p id="LeftMenu">Deliver us the moon</p></a>
+				<a href="DownloadPages/Satisfactory.html"><p id="LeftMenu">Satisfactory</p></a>
+				<a href="DownloadPages/DeusExMankindDivided.html"><p id="LeftMenu">Deus Ex: Mankind Divided</p></a>
 			</div>
 			<div id="center">
-				<p>center</p>
+				<div id="form">
+					<form id="login">
+						<fieldset>
+							<label><p>Логин</p><input type="login" required></label>
+							<label><p>Пароль</p><input type="password" required></label>
+							<input type="submit" value="Войти" id="submit">
+						</fieldset>
+					</form>
+					<form id="registration">
+						<fieldset>
+							<label><p>Логин</p><input type="login" required></label>
+							<label><p>Почта</p><input type="e-mail" required></label>
+							<label><p>Пароль</p><input type="password" required></label>
+							<div>
+								<input type="radio" name="gender" value="male" checked> Мужчина<br>
+								<input type="radio" name="gender" value="female"> Женщина<br>
+							</div>
+							<input type="submit" value="Зарегестрироваться" id="submit">
+						</fieldset>
+					</form>
+					<div id="buttons">
+						<button 
+						onclick="document.getElementById('login').style.display='block'; 
+						document.getElementById('registration').style.display='none';">Логин</button>
+						<button 
+						onclick="document.getElementById('login').style.display='none';
+						document.getElementById('registration').style.display='block';">Регистрация</button>
+					</div>
+				</div>
 			</div>
 		</div>
+
 		<div id="spacer">
-			<p>spacer</p>
+			<a id="contacts" href="tel:+79819703840">Позвоните Мне!</a>
+			<a id="contacts" href="https://vk.com/heocraftrus">Я Вконтакте</a>
+			<a id="contacts" href="mailto:lebedeff.grish@yandex.ru">Почта для связи</a>
 		</div>
 	</div>
 </body>

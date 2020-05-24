@@ -1,0 +1,17 @@
+#ContBlock{
+	width: auto;
+	height: auto;
+	background: #a4bbbb;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+#cover{
+	margin: 10px;
+	width: 30%;
+	height: 30%;
+}
+h2{
+
+}

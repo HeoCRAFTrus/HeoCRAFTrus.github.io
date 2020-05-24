@@ -1,0 +1,62 @@
+
+#content{
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+}
+
+h1{
+	background: #54a4ad;
+	border-radius: 5px;
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	font-style: 
+}
+#cover{
+	width: 321px;
+	height: 450px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table{
+	width: 96%;
+	margin-bottom: 10px;
+}
+#descriptionBlock{
+	background: #a4bbbb;
+	border-radius: 5px;
+	margin: 5px;
+	width: 98%;
+	height: 100%;
+	
+}
+#description{
+	margin: 10px;
+	white-space: wrap;
+}
+#tdescription{
+	margin: 10px;
+	white-space: wrap;
+}
+#pdescription{
+	margin: 10px;
+	width: 96%;
+}
+#video{
+	margin: 10px;
+	width: 96%;
+	height: 46%%;
+}
+#DowImg{
+	width: 175px;
+	height: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

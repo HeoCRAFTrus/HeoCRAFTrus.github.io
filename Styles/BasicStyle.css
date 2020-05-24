@@ -22,23 +22,24 @@ ul {
 	padding-left: 1.4em;
 	list-style: square;
 }
-
 /* конец кода сброса стилей браузера */
+
 a{ 
-    text-decoration: none;
+	color: black;
+	text-decoration: none;
 } 
 body{
 	background: url(../images/bg.jpg) repeat center 897px;
 	background-size: 100%;
 }
- li {
-    list-style-type: none;
-   }
+
 #body{
 	display: flex; 
 	flex-direction: column;
 	align-items: flex-start;
 }
+
+
 #header{
 	background: linear-gradient(green, #4169E1);
 	border-radius: 0px 0px 10px 10px;
@@ -63,30 +64,29 @@ body{
 	text-align: center;
 
 }
-
 #logo{
 	width: 30%;
 	height: 30%;
 	margin: 5px;
 }
 
+
 #container{
 	display: flex; 
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin: 0 auto;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	width: 56.3%;
 	height: auto;
-
 }
+
 #left{
 	width: 24%;
 	height: 100%;
 	position: sticky;
-	top: 10%;
+	top: 3%;
 }
 #LeftMenu{
 	background: linear-gradient(green, #4169E1);
@@ -104,66 +104,6 @@ body{
 	width: 76%;
 	height: 100%;
 }
-#content{
-	display: flex; 
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: center;
-}
-h1{
-	background: #54a4ad;
-	border-radius: 5px;
-	width: 100%;
-	text-align: center;
-	font-size: 2em;
-	font-style: 
-}
-#cover{
-	width: 321px;
-	height: 450px;
-	margin: 10px;
-	margin-left: auto;
-	margin-right: auto;
-}
-table{
-	width: 96%;
-	margin-bottom: 10px;
-}
-#descriptionBlock{
-	background: #a4bbbb;
-	border-radius: 5px;
-	margin: 5px;
-	width: 98%;
-	
-}
-#description{
-	margin: 10px;
-	white-space: wrap;
-}
-#pdescription{
-	border:1px solid black;
-	margin: 10px;
-}
-#download{
-	width: 1px;
-	height: 1px;
-    border: 1px solid black;
-}
-#DowImg{
-	width: 175px;
-	height: 50px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-#video{
-	margin: 10px;
-}
-
-
 
 
 #spacer{
@@ -174,6 +114,7 @@ table{
 	margin-top: 5px;
 	width: 56.3%;
 	height: 40px;
+	position: bottom;
 
 	display: flex; 
 	flex-direction: row;
@@ -183,8 +124,8 @@ table{
 }
 #contacts{
 	border-radius: 5px;
-	height: 60%;
-	width: 20%;
+	height: auto;
+	width: 30%;
 	background: #4682B4;
 	margin-left: 10px;
 	margin-right: 10px;

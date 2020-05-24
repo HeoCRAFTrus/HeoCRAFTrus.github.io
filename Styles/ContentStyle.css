@@ -19,6 +19,7 @@ h1{
 	/*width: 321px;
 	height: 450px;*/
 	width: 45%;
+	height: 45%;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -34,11 +35,12 @@ table{
 	margin: 5px;
 	width: 98%;
 	height: 100%;
-	
+	display: flex;
+	white-space: wrap;
+	flex-direction: column;
 }
 #description{
 	margin: 10px;
-	white-space: wrap;
 }
 #tdescription{
 	margin: 10px;
@@ -48,11 +50,73 @@ table{
 	margin: 10px;
 	width: 96%;
 }
-#video{
-	margin: 10px;
-	width: 96%;
+#video{	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 70%;
 	height: 46%%;
 }
+
+.slide {
+	margin-left: auto;
+	margin-right: auto;
+	width:400px;
+	height:240px;
+	position: relative;
+	text-align: center;
+}
+.slide  input {
+	display: none;
+}
+.slide  input + label {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 8px;
+	background: rgba(90, 90, 90, 0.8);
+	border: 2px solid rgba(190, 190, 190, 0.8);
+
+	cursor: pointer;
+
+	z-index: 100;
+	position: relative;
+
+	margin-right: 4px;
+	top: 90%;
+
+	transition: background 0.8s ease-out 0s;
+}
+.slide  input + label:hover {
+	background: rgba(250, 250, 250, 0.8);
+}
+.slide  input:checked + label {
+	background: rgba(220, 220, 220, 0.8);
+}
+.slide  div {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 0;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+}
+
+img {
+	width:400px;
+	height:240px;
+}
+.slide  input:checked + label + div {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+}
+
+
 #DowImg{
 	width: 175px;
 	height: 50px;

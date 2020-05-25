@@ -9,14 +9,22 @@
 	#container{
 		width: 100%;
 	}
+	#video{	
+	width: 65%;
+	height: 46%;
+}
 	.slide{
-		width:300px;
-		height:220px;
+		width:200px;
+		height:100px;
 	}
 	.slide img {
-	width:300px;
-	height:220px;
-}
+	width:200px;
+	height:100px;
+	}
+	.slide  input + label {
+		width: 5px;
+		height: 5px;
+	}
 	#spacer{
 		width: 100%;
 		justify-content: space-between;

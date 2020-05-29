@@ -59,10 +59,17 @@ body{
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-right: 5%;
-	height: 50px;
-	width: 100px;
-	text-align: center;
-
+	height: auto;
+	width: auto;
+}
+#LogRegForm div{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+}
+#LogRegForm p{
+	margin: 2px;
 }
 #logo{
 	width: 30%;

@@ -3,6 +3,12 @@
 	background: url(../images/bgMobile.jpg) repeat center 897px;
 	background-size: 100%;
 	}
+	h1{
+		font-size: 75%;
+	}
+	p{
+		font-size: 75%;
+	}
 	#header{
 		width: 100%;
 	}

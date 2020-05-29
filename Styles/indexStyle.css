@@ -6,12 +6,16 @@
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
+	display: flex;
 }
 #cover{
 	margin: 10px;
 	width: 30%;
 	height: 30%;
 }
+#description{
+	margin: 10px;
+}
 h2{
-
+	margin: 10px;
 }

@@ -132,7 +132,7 @@ body{
 #contacts{
 	border-radius: 5px;
 	height: auto;
-	width: 30%;
+	width: auto;
 	background: #4682B4;
 	margin-left: 10px;
 	margin-right: 10px;
